@@ -42,7 +42,6 @@ class _SliderPageState extends State<SliderPage> {
             : (val) {
                 setState(() {
                   _sliderValue = val;
-                  print(val);
                 });
               });
   }
